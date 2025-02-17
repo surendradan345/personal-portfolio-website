@@ -1,0 +1,271 @@
+/* Style for Navbar Brand */
+nav .container .navbar-brand {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 4px 5px rgb(67, 62, 62);
+}
+
+#navbarNavAltMarkup .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Style for Individual Navbar Items */
+#navbarNavAltMarkup .navbar-nav .nav-link {
+    text-align: center !important;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* Style for Background Image */
+#background {
+    background-image: url('./img/Surendra-removebg.png');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Fallback background color */
+#background {
+    background-color: #000;
+}
+
+/* For desktops and larger screens */
+@media (min-width: 992px) {
+    #background {
+        height: 500px;
+    }
+
+    #background h1 {
+        font-size: 3rem;
+        color: red !important;
+        padding-top: 5%;
+    }
+
+    #background h2 {
+        font-size: 2rem;
+        margin-top: 4%;
+
+    }
+
+    #background button {
+        font-size: 1.2rem;
+        margin-top: 3%;
+
+    }
+}
+
+/* For tablets and medium-sized screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    #background {
+        height: 500px;
+    }
+
+    #background h1 {
+        font-size: 3rem;
+        color: red !important;
+        padding-top: 5%;
+    }
+
+    #background h2 {
+        font-size: 2rem;
+        margin-top: 8%;
+
+    }
+
+    #background button {
+        font-size: 1.2rem;
+        margin-top: 5%;
+
+    }
+}
+
+/* For mobile devices and smaller screens */
+@media (max-width: 767px) {
+    #background {
+        height: 400px;
+    }
+
+    #background h1 {
+        font-size: 3rem;
+        color: red !important;
+        padding-top: 5%;
+    }
+
+    #background h2 {
+        font-size: 2rem;
+        margin-top: 8%;
+
+    }
+
+    #background button {
+        font-size: 1.2rem;
+        margin-top: 4%;
+
+    }
+}
+
+
+.container .row {
+    margin-top: 20px;
+}
+
+.container .row .col-sm-4 {
+    margin-top: 25px;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px black;
+}
+
+.container .row .col-sm-8 button {
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+#skils {
+    background-color: #1d1c1c;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    ;
+}
+
+
+
+#skils .row .col {
+    box-shadow: 0px 0px 5px rgb(86, 84, 84);
+    margin: 30px;
+    justify-items: center;
+    background-color: rgba(6, 6, 6, 0.089);
+    height: 100px;
+    transition: 0.3s, transform 0.3s ease;
+
+    box-shadow: 0px 0px 5px rgb(157, 144, 144);
+}
+
+#skils .row .col:hover {
+    transform: scale(1.2);
+}
+
+#skils .row .col img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#Porfoilio {
+    margin-top: 50px;
+}
+
+.Porfoilio {
+    text-shadow: 1px 1px 5px rgb(13, 12, 12);
+    font-weight: 400;
+    font-size: 60px;
+}
+
+
+#Porfoilio .row .col-sm-3 .p-3 {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px black;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px !important;
+    border-radius: 10px;
+    transition: 0.3s, transform 0.3s ease;
+
+    box-shadow: 0px 0px 5px rgb(157, 144, 144);
+}
+
+#Porfoilio .row .col-sm-3 .p-3:hover {
+    transform: scale(1.2);
+
+
+}
+
+#Porfoilio .row .col-sm-3 .p-3:hover {
+    color: #ebc90a;
+}
+
+
+
+#Porfoilio .row .col-sm-3 .p-3 p {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(251, 251, 251);
+}
+
+#Porfoilio .row .col-sm-3 .p-3 p:hover {
+    border-bottom: 1px solid rgb(241, 241, 2);
+
+}
+
+#Porfoilio .row .col-sm-4 .p-3 {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px black;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px !important;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 1px;
+    transition: 0.3s, transform 0.3s ease;
+
+    box-shadow: 0px 0px 5px rgb(157, 144, 144);
+}
+
+#Porfoilio .row .col-sm-4 .p-3:hover {
+    transform: scale(1.2);
+}
+
+#Porfoilio .row .col-sm-4 .p-3:hover {
+    color: #ebc90a;
+}
+
+#Porfoilio .row .col-sm-4 .p-3 p {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(251, 251, 251);
+}
+
+#Porfoilio .row .col-sm-4 .p-3 p:hover {
+    border-bottom: 1px solid rgb(241, 241, 2);
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .btn {
+    color: rgb(242, 242, 242);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 253, 253);
+
+}
+
+footer .btn:hover {
+    color: #000000;
+    background-color: #fefdfd;
+    border: 1px solid rgb(255, 253, 253);
+}
+
+#float-end {
+    font-size: 30px;
+    text-align: right;
+    gap: 5px;
+
+}
+
+footer p {
+    text-align: right;
+    padding-top: 1px;
+}
